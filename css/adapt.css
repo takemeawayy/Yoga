@@ -1,0 +1,461 @@
+@media only screen and (max-width: 1200px){
+
+    .logo {
+        margin-left: 15px;
+    }
+    .logo.footer {
+        margin-left: 0;
+    }
+
+    .burger {
+        margin-right: 15px;
+    }
+
+    .intro_p {
+        max-width: 700px;
+    }
+
+    .types_content {
+        padding: 0 50px;
+    }
+    .slider_item_wrap {
+        padding: 7px;
+    }
+
+    .customers {
+        padding: 10px;
+        top: 3%;
+    }
+
+    .yoga_icon.num2 {
+        left: 8%;
+        top: 10%;
+    }
+
+    .content {
+        padding-right: 10px;
+    }
+
+    .footer_wrap {
+        padding: 50px 25px;
+        flex-wrap: wrap;
+    }
+
+    .footer_bottom {
+        padding: 50px 25px;
+    }
+
+    .email_wrap {
+        width: 50%;
+        margin-bottom: 25px;
+    }
+
+    .footer_about {
+        width: 25%;
+    }
+
+    .footer_support {
+        width: 25%;
+    }
+
+    .footer_contact {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 992px) {
+
+    .nav {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .intro_p {
+        max-width: 550px;
+    }
+
+    .info_item {
+        width: 50%;
+    }
+
+    .benefit_section {
+        margin-bottom: 50px;
+    }
+
+    .video_tutorials {
+        left: 2%;
+        top: 13%;
+    }
+
+    .yoga_word {
+        font-size: 60px;
+    }
+
+    .title {
+        font-size: 34px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    video {
+        width: 450px;
+    }
+
+    .types_content {
+        padding: 0 25px;
+    }
+
+    .arrows {
+        gap: 50px;
+    }
+
+    .yoga_icon.num2 {
+        display: none;
+    }
+
+    .customers {
+        top: -14%;
+        left: 47%;
+    }
+
+    .plan_item {
+        width: 50%;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    .review_item {
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    .slider_container {
+        padding: 0 25px;
+    }
+
+
+}
+@media only screen and (max-width: 768px) {
+
+    .img_wrap {
+        width: 400px;
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .intro_p {
+        max-width: 400px;
+    }
+
+    .social {
+        flex-direction: row;
+        bottom: 0;
+        margin-bottom: 5px;
+    }
+
+    .social::after {
+        display: none;
+    }
+
+    .info_section {
+        margin-bottom: 30px;
+    }
+
+    .info_heading {
+        padding: 0 15px;
+    }
+
+    .info_item {
+        width: 80%;
+        max-width: 500px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .content {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 25px;
+        padding: 0 15px;
+    }
+
+    .benefits_wrap {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .img_holder {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    video {
+        width: 350px;
+    }
+
+    .benefit_section{
+        margin-bottom: 0;
+    }
+
+    .types_content {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .types_content .title {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .types_content .text {
+        width: 100%;
+    }
+
+    .equipment_wrap {
+        flex-direction: column-reverse;
+    }
+
+    .customers {
+        top: 4%;
+        left: 55%;
+    }
+
+    .text {
+        max-width: 400px;
+    }
+
+    .plan_item {
+        width: 80%;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    .slider_container {
+        padding: 0;
+    }
+
+    .review_section {
+        margin-bottom: 0;
+    }
+
+    .review_item {
+        max-width: 350px;
+    }
+
+    .review_text {
+        font-size: 16px;
+    }
+
+    .email_wrap {
+        width: 75%;
+    }
+
+    .footer_support {
+        width: 50%;
+    }
+
+    .footer_contact {
+        width: 50%;
+        text-align: left;
+    }
+
+    .footer_bottom {
+        padding: 25px 25px;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+}
+@media only screen and (max-width: 468px) {
+
+    .nav.open {
+        text-align: center;
+
+    }
+    .nav.open .nav_link {
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+    }
+
+    .text {
+        font-size: 13px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .intro_p {
+        font-size: 14px;
+    }
+
+    .img_wrap {
+        width: 250px;
+    }
+
+    .social {
+        display: none;
+    }
+
+    .info_item {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .benef_icon {
+        font-size: 25px;
+    }
+
+    .benef_icon_content {
+        font-size: 14px;
+    }
+
+    .benef_span {
+        font-size: 14px;
+    }
+
+    .video_tutorials {
+        gap: 5px;
+    }
+
+    .yoga_icon {
+        width: 60px;
+        padding: 5px;
+    }
+
+    .yoga_word {
+        font-size: 40px;
+    }
+
+    video {
+        width: 300px;
+    }
+    .types_content {
+        padding: 0 15px;
+        margin-bottom: 15px;
+    }
+
+    .slider_item_wrap {
+        padding: 15px;
+    }
+
+    .slider_item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .swiper.swiper1 {
+        margin-bottom: 15px;
+    }
+
+    .customers {
+        left: 40%;
+        padding: 7.5px;
+    }
+
+    .customers_photos {
+        width: 100px;
+        height: 30px;
+        margin-bottom: 5px;
+    }
+
+    .customers_span {
+        font-size: 14px;
+    }
+
+    .customers_title {
+        font-size: 14px;
+    }
+
+    .customer {
+        height: 30px;
+    }
+
+    .plan_time {
+        font-size: 16px;
+    }
+
+    .switch_field {
+        margin-bottom: 20px;
+    }
+
+    .plan_item {
+        width: 100%;
+    }
+
+    .review_text {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .review_author {
+        font-size: 16px;
+    }
+    
+    .author_place {
+        font-size: 14px;
+    }
+
+    .email_wrap {
+        width: 100%;
+        padding-right: 0;
+    }
+    .footer_about {
+        width: 50%;
+    }
+
+    .footer_contact {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    .text.footer {
+        margin-bottom: 25px;
+    }
+
+    .copyright {
+        font-size: 11px;
+    }
+
+    .swiper-button-next-unique2,
+    .swiper-button-prev-unique2 {
+        width: 40px;
+        height: 40px;
+    }
+
+    .review_section {
+        padding: 0;
+    }
+
+    .footer_wrap {
+        font-size: 14px;
+    }
+
+    .footer_support {
+        text-align: center;
+    }
+
+    .footer_about {
+        text-align: center;
+    }
+
+}
+@media only screen and (max-width: 320px) {
+
+}
