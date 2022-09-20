@@ -295,6 +295,8 @@ body {
 .img_wrap {
     position: relative;
 
+    padding: 20px;
+
     height: 500px;
     width: 502px;
 }
@@ -1057,10 +1059,6 @@ video {
 }
 
 .list_link.def:hover {
-    text-decoration: underline;
-}
-
-.list_link:hover span {
     text-decoration: underline;
 }
 
